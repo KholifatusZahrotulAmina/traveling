@@ -1,4 +1,5 @@
 import Layout from '../../layouts/layout';
+import Link from 'next/link';
 
 function Jogja(){
   return(
@@ -8,6 +9,7 @@ function Jogja(){
                <br/>
                 <p className="subtitle is-6"> adalah ibu kota negara dan kota terbesar di Indonesia. Jakarta merupakan satu-satunya kota di Indonesia yang memiliki status setingkat provinsi. Jakarta terletak di pesisir bagian barat laut Pulau Jawa. Jogja merupakan kota dengan sejuta kenangan, semua orang yang melakukan liburan wisata ke jogja pasti tidak bisa move on dari bayang-bayang keindahan khas yang hanya bisa dijumpai di jogja. Tak heran jika banyak sekali wisatawan yang berulang kali memilih kota jogja menjadi salah satu destinasi kota wisata yang wajib untuk didatangi lagi dan lagi.</p>
                     <br />
+                    <h6><Link href="/artikelwisata/[artikelwisata]" as="/artikelwisata/jogja" className="font-weight-bold active"> PROFIL YOGYAKARTA</Link></h6>
                     <br/>
                     <center>
                         <figure>

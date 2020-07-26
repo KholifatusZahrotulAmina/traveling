@@ -1,4 +1,5 @@
 import Layout from '../../layouts/layout';
+import Link from 'next/link';
 function Jakarta(){
   return(
     <Layout>
@@ -7,6 +8,7 @@ function Jakarta(){
                <br/>
                 <p className="subtitle is-6"> adalah ibu kota negara dan kota terbesar di Indonesia. Jakarta merupakan satu-satunya kota di Indonesia yang memiliki status setingkat provinsi. Jakarta terletak di pesisir bagian barat laut Pulau Jawa.</p>
                     <br />
+                    <h6><Link href="/artikelwisata/[artikelwisata]" as="/artikelwisata/jakarta" className="font-weight-bold active"> PROFIL DKI JAKARTA</Link></h6>
                     <br/>
                     <center>
                         <figure>

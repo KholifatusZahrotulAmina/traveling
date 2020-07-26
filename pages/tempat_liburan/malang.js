@@ -1,4 +1,5 @@
 import Layout from '../../layouts/layout';
+import Link from 'next/link';
 function Malang(){
   return(
     <Layout>
@@ -7,6 +8,7 @@ function Malang(){
                <br/>
                 <p className="subtitle is-6"> Kota Malang adalah sebuah kota yang terletak di Provinsi Jawa Timur, Indonesia. Kota ini terletak 90 km sebelah selatan Surabaya dan merupakan kota terbesar di kedua di Jawa Timur setelah Surabaya, serta merupakan salah satu kota terbesar di Indonesia menurut jumlah penduduk.</p>
                     <br />
+                    <h6><Link href="/artikelwisata/[artikelwisata]" as="/artikelwisata/malang" className="font-weight-bold active"> PROFIL KABUPATEN MALANG</Link></h6>
                     <br/>
                     <center>
                         <figure>

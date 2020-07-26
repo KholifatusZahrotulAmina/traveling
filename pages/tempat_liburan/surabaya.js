@@ -1,4 +1,5 @@
 import Layout from '../../layouts/layout';
+import Link from 'next/link';
 function Surabaya(){
   return(
     <Layout>
@@ -7,6 +8,7 @@ function Surabaya(){
                <br/>
                 <p className="subtitle is-6">  Surabaya Adalah: ibu kota Provinsi Jawa Timur, Indonesia sekaligus menjadi kota metropolitan terbesar di provinsi tersebut. Surabaya merupakan kota terbesar kedua di Indonesia setelah Jakarta.</p>
                     <br />
+                    <h6><Link href="/artikelwisata/[artikelwisata]" as="/artikelwisata/surabaya" className="font-weight-bold active"> PROFIL SURABAYA</Link></h6>
                     <br/>
                     <center>
                         <figure>

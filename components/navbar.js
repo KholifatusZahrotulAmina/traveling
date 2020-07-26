@@ -26,7 +26,7 @@ function Navbar(){
       </a></Link>
 
       <div class="navbar-item has-dropdown is-hoverable">
-       <Link href="/tempat_liburan/index" ><a class="navbar-link">
+       <Link href="" ><a class="navbar-link">
           Tempat Liburan
         </a></Link>
 
